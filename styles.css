@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.hero {
+    display: flex;              /* REQUIRED */
+    justify-content: center;    /* REQUIRED */
+    align-items: center;        /* REQUIRED */
+
+    height: 100vh;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Image */
+.hero img {
+    width: 400px;              /* REQUIRED */
+    height: 300px;             /* REQUIRED */
+    object-fit: cover;         /* REQUIRED */
+    border-radius: 10px;
+}
+
+/* Text content */
+.content {
+    max-width: 400px;
+}
+
+/* Button / Link */
+.content a {
+    display: inline-block;
+    margin-top: 15px;
+
+    padding: 10px 20px;        /* REQUIRED */
+    background-color: #e60023; /* REQUIRED */
+    color: white;              /* REQUIRED */
+    border-radius: 20px;       /* REQUIRED */
+
+    text-decoration: none;
+}
