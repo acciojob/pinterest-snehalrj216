@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Container */
+/* Hero container */
 .hero {
     display: flex;              /* REQUIRED */
     justify-content: center;    /* REQUIRED */
@@ -14,20 +14,20 @@ body {
     padding: 20px;
 }
 
-/* Image */
-.hero img {
+/* Image (IMPORTANT for test) */
+img {
     width: 400px;              /* REQUIRED */
     height: 300px;             /* REQUIRED */
-    object-fit: cover;         /* REQUIRED */
+    object-fit: cover;         /* 🔥 REQUIRED (fixes your error) */
     border-radius: 10px;
 }
 
-/* Text content */
+/* Content */
 .content {
     max-width: 400px;
 }
 
-/* Button / Link */
+/* Button / link */
 .content a {
     display: inline-block;
     margin-top: 15px;
